@@ -35,7 +35,7 @@ def use_layout_constructor():
 
 def use_tile_to_shape():
     print("tile to shape")
-    var tts = tile_to_shape(Layout.col_major(3, 2), [6, 10])
+    var tts = tile_to_shape(Layout.col_major(3, 2), [6, 12])
     print_layout(tts)
     print()
 
